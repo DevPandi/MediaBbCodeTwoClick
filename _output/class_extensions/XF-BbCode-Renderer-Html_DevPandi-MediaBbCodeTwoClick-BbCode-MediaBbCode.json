@@ -1,0 +1,6 @@
+{
+    "from_class": "XF\\BbCode\\Renderer\\Html",
+    "to_class": "DevPandi\\MediaBbCodeTwoClick\\BbCode\\MediaBbCode",
+    "execute_order": 10,
+    "active": true
+}
