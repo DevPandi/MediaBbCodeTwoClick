@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phrases>
+  <phrase title="dp_media_two_click_load" version_id="1000031" version_string="1.0.0 Beta 1"><![CDATA[Load embedded content]]></phrase>
+  <phrase title="dp_media_two_click_text" version_id="1000031" version_string="1.0.0 Beta 1"><![CDATA[<p>Content from {mediaProvider} is integrated at this point. Please note that if you wish to view the content, your IP address and the URL of this page will be transmitted to the content provider. The content provider may also set cookies that can be used to track you.</p>
+
+<p>The integration of the content takes place at your request.</p>]]></phrase>
+</phrases>

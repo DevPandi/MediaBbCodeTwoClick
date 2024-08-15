@@ -1,0 +1,9 @@
+{
+    "template": "helper_js_global",
+    "description": "",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "<!--XF:JS-->",
+    "replace": "<xf:js prod=\"DevPandi/MediaTwoClick.min.js\" dev=\"DevPandi/MediaTwoClick.js\" />\n<!--XF:JS-->"
+}

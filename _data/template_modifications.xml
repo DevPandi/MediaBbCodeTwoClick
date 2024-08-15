@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template_modifications>
+  <modification type="public" template="account_privacy" modification_key="dp_two_click" execution_order="10" enabled="1" action="str_replace">
+    <find><![CDATA[</xf:formrow>
+		</div>
+		<xf:submitrow icon="save" sticky="true" />
+	</div>
+</xf:form>
+]]></find>
+    <replace><![CDATA[</xf:formrow>
+<xf:checkboxrow label="{{ phrase('dp_two_click_user_privacy') }}">
+	<xf:option name="user[load_embedded]" checked="{$xf.visitor.load_embedded}"
+		label="{{ phrase('dp_two_click_load_embedded') }}"
+		hint="{{ phrase('dp_two_click_load_embedded_desc') }}">
+	</xf:option>
+</xf:checkboxrow>
+</div>
+		<xf:submitrow icon="save" sticky="true" />
+	</div>
+</xf:form>
+]]></replace>
+  </modification>
+  <modification type="public" template="helper_js_global" modification_key="dp_helper_js_global_two_click" execution_order="10" enabled="1" action="str_replace">
+    <find><![CDATA[<!--XF:JS-->]]></find>
+    <replace><![CDATA[<xf:js prod="DevPandi/MediaTwoClick.min.js" dev="DevPandi/MediaTwoClick.js" />
+<!--XF:JS-->]]></replace>
+  </modification>
+</template_modifications>

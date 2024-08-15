@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class_extensions>
+  <extension from_class="XF\BbCode\Renderer\Html" to_class="DevPandi\MediaBbCodeTwoClick\BbCode\MediaBbCode" execute_order="10" active="1"/>
+  <extension from_class="XF\Pub\Controller\AccountController" to_class="DevPandi\MediaBbCodeTwoClick\Pub\Controller\AccountController" execute_order="10" active="1"/>
+</class_extensions>
