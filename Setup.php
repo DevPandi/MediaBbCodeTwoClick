@@ -3,12 +3,18 @@
 namespace DevPandi\MediaBbCodeTwoClick;
 
 use XF\AddOn\AbstractSetup;
+use XF\Db\Schema\Alter;
 
 class Setup extends AbstractSetup
 {
 	public function install(array $stepParams = [])
 	{
-		// TODO: Implement install() method.
+        $this->schemaManager()->alterTable(
+            'xf_user',
+            function (Alter $user_table) {
+                $user_table->addColumn('load_embedded', 'tinyint')->setDefault(0);
+            }
+        );
 	}
 
 	public function upgrade(array $stepParams = [])

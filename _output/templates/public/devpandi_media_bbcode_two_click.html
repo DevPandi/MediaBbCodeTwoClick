@@ -1,0 +1,17 @@
+<div class="bbCodeBlock bbCodeBlock--screenLimited bbCodeBlock--dpTwoClick" id="mediaBbCode-{{ $mediaID }}">
+	<div class="bbCodeBlock-title">
+		{{ phrase('dp_media_two_click_title', {'mediaProvider': $mediaProvider}) }}
+	</div>
+	<div class="bbCodeBlock-content">
+		{{ phrase('dp_media_two_click_text', {'mediaProvider': $mediaProvider}) }}
+	</div>
+	<div class="bbCodeBlock-content">
+		<xf:button class="mediaBbCodeButton" data-xf-click="media-two-click" data-media-id="{{ $mediaID }}">
+			{{ phrase('dp_media_two_click_load') }}
+		</xf:button>
+	</div>
+</div>
+
+<script type="application/ld+json" id="twoClickData-{{ $mediaID }}">
+	{{ $htmlContent|json|raw }}
+</script>

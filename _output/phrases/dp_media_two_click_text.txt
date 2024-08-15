@@ -1,0 +1,3 @@
+<p>Content from {mediaProvider} is integrated at this point. Please note that if you wish to view the content, your IP address and the URL of this page will be transmitted to the content provider. The content provider may also set cookies that can be used to track you.</p>
+
+<p>The integration of the content takes place at your request.</p>
