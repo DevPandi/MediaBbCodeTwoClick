@@ -10,5 +10,17 @@
         "version_id": 1000031,
         "version_string": "1.0.0 Beta 1",
         "hash": "589c4fc99caa07db774da9a342ee31a7"
+    },
+    "dp_media_two_click_title.txt": {
+        "global_cache": false,
+        "version_id": 1000031,
+        "version_string": "1.0.0 Beta 1",
+        "hash": "6d8b885d2f71a072495faaf6ed5728ef"
+    },
+    "dp_two_click_user_privacy.txt": {
+        "global_cache": false,
+        "version_id": 1000031,
+        "version_string": "1.0.0 Beta 1",
+        "hash": "c05342dd0248ec71df0e02965917f4b7"
     }
 }

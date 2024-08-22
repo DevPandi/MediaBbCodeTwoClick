@@ -12,7 +12,7 @@ class Setup extends AbstractSetup
         $this->schemaManager()->alterTable(
             'xf_user',
             function (Alter $user_table) {
-                $user_table->addColumn('load_embedded', 'tinyint')->setDefault(0);
+                $user_table->addColumn('dp_load_embedded', 'tinyint')->setDefault(0);
             }
         );
 	}
@@ -24,6 +24,11 @@ class Setup extends AbstractSetup
 
 	public function uninstall(array $stepParams = [])
 	{
-		// TODO: Implement uninstall() method.
+		$this->schemaManager()->alterTable(
+            'xf_user',
+            function (Alter $user_table) {
+                $user_table->dropColumns(['dp_load_embedded']);
+            }
+        );
 	}
 }

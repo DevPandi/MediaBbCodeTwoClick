@@ -9,7 +9,7 @@
 ]]></find>
     <replace><![CDATA[</xf:formrow>
 <xf:checkboxrow label="{{ phrase('dp_two_click_user_privacy') }}">
-	<xf:option name="user[load_embedded]" checked="{$xf.visitor.load_embedded}"
+	<xf:option name="user[dp_load_embedded]" checked="{$xf.visitor.dp_load_embedded}"
 		label="{{ phrase('dp_two_click_load_embedded') }}"
 		hint="{{ phrase('dp_two_click_load_embedded_desc') }}">
 	</xf:option>

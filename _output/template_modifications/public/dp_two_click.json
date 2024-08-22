@@ -5,5 +5,5 @@
     "enabled": true,
     "action": "str_replace",
     "find": "</xf:formrow>\n\t\t</div>\n\t\t<xf:submitrow icon=\"save\" sticky=\"true\" />\n\t</div>\n</xf:form>\n",
-    "replace": "</xf:formrow>\n<xf:checkboxrow label=\"{{ phrase('dp_two_click_user_privacy') }}\">\n\t<xf:option name=\"user[load_embedded]\" checked=\"{$xf.visitor.load_embedded}\"\n\t\tlabel=\"{{ phrase('dp_two_click_load_embedded') }}\"\n\t\thint=\"{{ phrase('dp_two_click_load_embedded_desc') }}\">\n\t</xf:option>\n</xf:checkboxrow>\n</div>\n\t\t<xf:submitrow icon=\"save\" sticky=\"true\" />\n\t</div>\n</xf:form>\n"
+    "replace": "</xf:formrow>\n<xf:checkboxrow label=\"{{ phrase('dp_two_click_user_privacy') }}\">\n\t<xf:option name=\"user[dp_load_embedded]\" checked=\"{$xf.visitor.dp_load_embedded}\"\n\t\tlabel=\"{{ phrase('dp_two_click_load_embedded') }}\"\n\t\thint=\"{{ phrase('dp_two_click_load_embedded_desc') }}\">\n\t</xf:option>\n</xf:checkboxrow>\n</div>\n\t\t<xf:submitrow icon=\"save\" sticky=\"true\" />\n\t</div>\n</xf:form>\n"
 }
