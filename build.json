@@ -1,6 +1,7 @@
 {
   "additional_files": [
-    "js/DevPandi/"
+    "js/DevPandi/MediaTwoClick.js",
+    "js/DevPandi/MediaTwoClick.min.js"
   ],
   "rollup": {
     "js/DevPandi/MediaTwoClick.js": ["js/DevPandi/MediaTwoClick.js"],
