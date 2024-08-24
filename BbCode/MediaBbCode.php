@@ -8,11 +8,10 @@ class MediaBbCode extends XFCP_MediaBbCode
 {
     public function renderTagMedia(array $children, $option, array $tag, array $options)
     {
-        if (XF::visitor()->getValue('load_embedded')) {
-            return parent::renderTagMedia($children, $option, $tag, $options);
-        }
-
         $content = parent::renderTagMedia($children, $option, $tag, $options);
+        if (XF::visitor()->getValue('dp_load_embedded')) {
+            return $content;
+        }
 
         if ($content === '') {
             return '';

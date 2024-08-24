@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <templates>
-  <template type="public" title="devpandi_media_bbcode_two_click" version_id="1000031" version_string="1.0.0 Beta 1"><![CDATA[<div class="bbCodeBlock bbCodeBlock--screenLimited bbCodeBlock--dpTwoClick" id="mediaBbCode-{{ $mediaID }}">
+  <template type="public" title="devpandi_media_bbcode_two_click" version_id="1000031" version_string="1.0.0 Beta 1"><![CDATA[<xf:css src="bb_code.less" />
+<div class="bbCodeBlock bbCodeBlock--screenLimited bbCodeBlock--dpTwoClick" id="mediaBbCode-{{ $mediaID }}">
 	<div class="bbCodeBlock-title">
 		{{ phrase('dp_media_two_click_title', {'mediaProvider': $mediaProvider}) }}
 	</div>
