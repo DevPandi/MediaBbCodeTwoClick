@@ -4,5 +4,7 @@
   <phrase title="dp_media_two_click_text" version_id="1000031" version_string="1.0.0 Beta 1"><![CDATA[<p>Content from {mediaProvider} is integrated at this point. Please note that if you wish to view the content, your IP address and the URL of this page will be transmitted to the content provider. The content provider may also set cookies that can be used to track you.</p>
 
 <p>The integration of the content takes place at your request.</p>]]></phrase>
+  <phrase title="dp_two_click_load_embedded" version_id="1000031" version_string="1.0.0 Beta 1"><![CDATA[Always load embedded media]]></phrase>
+  <phrase title="dp_two_click_load_embedded_desc" version_id="1000031" version_string="1.0.0 Beta 1"><![CDATA[If you activate this option, embedded media will be loaded automatically. Please note that the media providers may set cookies and learn the website visited.]]></phrase>
   <phrase title="dp_two_click_user_privacy" version_id="1000031" version_string="1.0.0 Beta 1"><![CDATA[Embedded Media]]></phrase>
 </phrases>

@@ -17,6 +17,18 @@
         "version_string": "1.0.0 Beta 1",
         "hash": "6d8b885d2f71a072495faaf6ed5728ef"
     },
+    "dp_two_click_load_embedded.txt": {
+        "global_cache": false,
+        "version_id": 1000031,
+        "version_string": "1.0.0 Beta 1",
+        "hash": "62381236323c49d6fe0b2d02454cb2a8"
+    },
+    "dp_two_click_load_embedded_desc.txt": {
+        "global_cache": false,
+        "version_id": 1000031,
+        "version_string": "1.0.0 Beta 1",
+        "hash": "1f208d5d16befe09b7937d4ac00b3376"
+    },
     "dp_two_click_user_privacy.txt": {
         "global_cache": false,
         "version_id": 1000031,

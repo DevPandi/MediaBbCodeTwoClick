@@ -1,0 +1,1 @@
+If you activate this option, embedded media will be loaded automatically. Please note that the media providers may set cookies and learn the website visited.
