@@ -1,0 +1,4 @@
+# [DevPandi] Media Bb Code Two-Click
+XenForo offers the option of integrating various content directly into content via the media bb-code. This usually has the disadvantage that content providers such as YouTube or X can track users. Cookies are also usually set immediately. This can be problematic, especially in Europe.
+
+To give visitors to the site some control, there is this plugin. The media is no longer embedded directly. Visitors to the site must explicitly agree to the integration of external media. Users of the site have the option of allowing the general loading of media under the privacy settings.
