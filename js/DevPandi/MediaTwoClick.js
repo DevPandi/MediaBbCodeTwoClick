@@ -12,7 +12,7 @@
 
         click (e)
         {
-            let parentElement = e.srcElement.parentElement;
+            let parentElement = e.target.parentElement;
             let mediaID = parentElement.dataset.mediaId || null;
 
             if (mediaID) {
