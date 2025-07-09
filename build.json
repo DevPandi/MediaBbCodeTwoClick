@@ -6,5 +6,12 @@
   "rollup": {
     "js/DevPandi/MediaTwoClick.js": ["js/DevPandi/MediaTwoClick.js"],
     "js/DevPandi/MediaTwoClick.min.js": ["js/DevPandi/MediaTwoClick.min.js"]
-  }
+  },
+  "exclude_directories": [
+    "js"
+  ],
+  "exclude_files": [
+    ".gitignore",
+    ".idea"
+  ]
 }

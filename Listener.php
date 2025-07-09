@@ -1,12 +1,12 @@
 <?php
 
-namespace DevPandi\MediaBbCodeTwoClick\Listener;
+namespace DevPandi\MediaBbCodeTwoClick;
 
 use XF\MvC\Entity\Entity;
 use XF\Mvc\Entity\Manager;
 use XF\Mvc\Entity\Structure;
 
-class TwoClickListener
+class Listener
 {
     public static function userEntityStructure(Manager $em, Structure &$structure)
     {

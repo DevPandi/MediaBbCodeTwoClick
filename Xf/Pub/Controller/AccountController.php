@@ -1,6 +1,6 @@
 <?php
 
-namespace DevPandi\MediaBbCodeTwoClick\Pub\Controller;
+namespace DevPandi\MediaBbCodeTwoClick\Xf\Pub\Controller;
 
 use XF\Entity\User;
 

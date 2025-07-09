@@ -1,6 +1,6 @@
 <?php
 
-namespace DevPandi\MediaBbCodeTwoClick\BbCode;
+namespace DevPandi\MediaBbCodeTwoClick\Xf\BbCode;
 
 use XF;
 
